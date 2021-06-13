@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Dela+Gothic+One&family=Oswald:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Dancing+Script:wght@700&family=Dela+Gothic+One&family=Oswald:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Dancing+Script:wght@700&family=Dela+Gothic+One&family=Londrina+Solid:wght@300&family=Luckiest+Guy&family=Oswald:wght@600&display=swap");
+div {
+  text-align: center;
+  position: relative;
+  font-family: "Oswald", sans-serif;
+}
+
+.form {
+  width: 100rem;
+  height: 70rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d3d3d3ab;
+  border-radius: 5rem;
+  margin-bottom: 5rem;
+  box-shadow: 1rem 2rem 5rem #aaa;
+  position: relative;
+  font-family: "Oswald", sans-serif;
+  font-weight: bold;
+}
+
+input {
+  /*border: 2px solid teal;
+  width: 80%;
+  padding: 10px 15px;
+  border-radius: 8px;
+  box-shadow: whitesmoke;*/
+  font-family: "Oswald", sans-serif;
+  font-size: 1.6rem;
+  border: none;
+  border-bottom: 0.1rem solid rgb(246, 247, 231);
+  margin: 0 0.5rem;
+  border-radius: 0.5rem;
+  height: 5rem;
+  width: 50rem;
+  font-weight: bold;
+}
+
+input:focus {
+  background-color: rgb(176, 210, 243);
+}
+textarea:focus {
+  background-color: rgb(176, 210, 243);
+}
+
+textarea {
+  /*border: 2px solid teal;
+  width: 80%;
+  padding: 10px 15px;
+  border-radius: 8px;
+  box-shadow: whitesmoke;*/
+  font-family: "Oswald", sans-serif;
+  font-size: 1.6rem;
+  border: none;
+  border-bottom: 0.1rem solid rgb(246, 247, 231);
+  margin: 0 0.5rem;
+  border-radius: 0.5rem;
+  height: 10rem;
+  width: 50rem;
+}
+
+.recipe-container {
+  /*background-color: rgb(30, 89, 148);
+  border-style: solid;*/
+  width: 35rem;
+  height: 55rem;
+  margin: 3rem;
+
+  display: flex;
+  flex-direction: column;
+  background-color: #d3d3d3c5;
+  padding: 2rem;
+  position: relative;
+  border-radius: 2rem;
+  box-shadow: 1rem 2rem 5rem #aaa;
+  float: left;
+  width: 25%;
+}
+
+.recipe-container h2 {
+  border-style: none;
+  border-radius: 2rem;
+  background-color: rgba(231, 222, 203, 0.74);
+}
+
+.rc {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: initial;
+  margin: auto;
+  margin-right: 2rem;
+}
+
+.submit-bt,
+.delete {
+  color: #030303;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-family: "Oswald", sans-serif;
+
+  background-color: #e1e2e2;
+  border: 3px solid #0c0d0e;
+  border-radius: 5rem;
+  height: 5rem;
+  width: 10rem;
+  margin-bottom: 50px;
+}
+
+.recipeslist {
+  text-decoration: cornflowerblue;
+}
+
+.form {
+  position: relative;
+}
+
+.container-1 {
+  font-family: "Oswald", sans-serif;
+  color: rgb(16, 17, 17);
+  font-size: 2rem;
+}
+.container-1 h2,
+h3 {
+  color: rgb(2, 34, 71);
+}
+.delete {
+  border-radius: 20px;
+  border-color: black;
+  box-shadow: coral;
+  height: 4rem;
+  width: 15rem;
+  font-size: medium;
+}
+
+.food {
+  font-family: "Oswald", sans-serif;
+  color: #0b4999;
+}
+
+.container-1 h2 {
+  font-family: "Oswald", sans-serif;
+  color: rgb(2, 52, 95);
+}
+
+.container-1 h1 {
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.685);
+  font-family: "Londrina Solid", cursive;
+  border-radius: 2rem;
+  box-shadow: 3px 3px 15px bisque;
+}
+.recipeslist h1 {
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.685);
+  font-family: "Londrina Solid", cursive;
+}
+
+.bt {
+  border-radius: 2rem;
+  border-width: 0.5rem;
+  display: inline-block;
+  height: 12rem;
+  width: 40rem;
+  background-color: rgba(231, 222, 203, 0.781);
+}
+.bt h2 {
+  color: rgb(2, 52, 95);
+}
